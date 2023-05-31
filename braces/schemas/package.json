@@ -1,13 +1,10 @@
 {
-  "name": "@jest/globals",
-  "version": "27.5.1",
+  "name": "@jest/schemas",
+  "version": "28.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/facebook/jest.git",
-    "directory": "packages/jest-globals"
-  },
-  "engines": {
-    "node": "^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0"
+    "directory": "packages/jest-schemas"
   },
   "license": "MIT",
   "main": "./build/index.js",
@@ -20,12 +17,13 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@jest/environment": "^27.5.1",
-    "@jest/types": "^27.5.1",
-    "expect": "^27.5.1"
+    "@sinclair/typebox": "^0.23.3"
+  },
+  "engines": {
+    "node": "^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "67c1aa20c5fec31366d733e901fee2b981cb1850"
+  "gitHead": "279ee6658d763f024d51f340fab6a37c17d94502"
 }
